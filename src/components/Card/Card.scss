@@ -1,0 +1,40 @@
+.Card{
+    width: 520px;
+    word-wrap: break-word;
+    background-color: #4e4e4e;
+    float: left;
+    border-radius: 10px;
+    margin: 50px;
+    opacity: 0.5;
+    p{
+        color: #fff;
+        font-size: 13pt;
+        text-align: justify;
+        margin: 10px;
+    }
+    button{
+        background-color: #61dafb;
+        color:  black;
+        border-radius: 15px;
+        font-size: 14pt;
+        cursor: pointer;
+        padding: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        float: right;
+    }
+    img{
+        border-radius: 10px 10px 0 0;
+    }
+    h1{
+        color: #fff;
+        text-align: center;
+    }
+    transform: scale(0.9);
+    transition: all 0.8s ease-in-out;
+}
+.Card:hover{
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.8s ease-in-out;
+}

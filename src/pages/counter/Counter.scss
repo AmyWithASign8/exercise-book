@@ -1,0 +1,72 @@
+.Counter{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14%;
+    h2{
+        color: #bebebe;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    h1{
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    div{
+        display: flex;
+        button{
+            outline: none;
+            border: 0;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            font-family: monospace;
+            cursor: pointer;
+            font-size: 12pt;
+            &:hover{
+                background-color: #414142;
+            }
+            &:first-child{
+                font-size: 14pt;
+            }
+            &:last-child{
+                font-size: 14pt;
+            }
+    }
+   
+    }
+    input{
+        outline: none;
+        background-color: #333;
+        border: 0;
+        color: #fff;
+        font-size: 12pt;
+        font-family: monospace;
+        &:hover{
+            background-color: #414142;
+        }
+    }
+    font-family: monospace;
+    button{
+        background-color: #c50000;
+        font-family: monospace;
+        font-size: 14pt;
+        color: #fff;
+        padding: 10px;
+        border: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        float: right;
+        &:hover{
+            background-color: #a50000;
+        }
+    }
+}
+.greenH1{
+    color: rgb(176, 255, 58);
+}
+.redH1{
+    color: #ff4242;
+}
+.whiteH1{
+    color: #fff;
+}

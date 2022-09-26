@@ -11,9 +11,14 @@
         font-size: 13pt;
         text-align: justify;
         margin: 10px;
+        height: 40px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     button{
         background-color: #61dafb;
+        width: 100%;
         color:  black;
         border-radius: 7px;
         border: 0;
@@ -22,7 +27,6 @@
         padding: 10px;
         margin-right: 10px;
         margin-bottom: 10px;
-        float: right;
         opacity: 0;
         transition: all 0.8s ease-in-out;
         &:hover{
@@ -46,5 +50,10 @@
     button{
         opacity: 1;
         transition: all 0.8s ease-in-out;
+    }
+    p{
+        text-overflow:clip;
+        white-space:inherit;
+        height: 100%;
     }
 }

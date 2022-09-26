@@ -1,6 +1,7 @@
 import React from 'react'
 import './Card.scss'
 import noPhoto from '../../assets/img/noPhoto.jpg';
+import counterImg from '../../assets/img/counter.png';
 import {Link} from 'react-router-dom'
 
 function Card({imageCard, descriptionCard, namingCard, cardRoute}) {

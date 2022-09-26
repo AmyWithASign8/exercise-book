@@ -1,6 +1,7 @@
 import './App.css';
 import { Card, Header } from './components';
 import {Routes, Route} from 'react-router';
+import { Counter, Home, Modal } from './pages';
 
 function App() {
   return (
@@ -8,8 +9,9 @@ function App() {
       <Header/>
       <div className='Cards'>
         <Routes>
-          <Route path="/" element={<Card namingCard="Счетчик" cardRoute='dasda' descriptionCard="Обычный счетчик на ReactJS, самое простое упражнение."/> } exact/>
-          <Route path="/Counter" element={<Card />} exact/>
+          <Route path="/" element={<Home/>} exact/>
+          <Route path="/counter" element={<Counter/>} exact/>
+          <Route path="/modal" element={<Modal/>} exact/>
         </Routes>
       </div>
     </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
 .Card{
     width: 520px;
     word-wrap: break-word;
@@ -15,20 +17,21 @@
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        font-family: 'Nunito', sans-serif;
     }
     button{
         background-color: #61dafb;
         width: 100%;
         color:  black;
-        border-radius: 7px;
+        border-radius: 0 0 10px 10px;
         border: 0;
         font-size: 14pt;
         cursor: pointer;
         padding: 10px;
         margin-right: 10px;
-        margin-bottom: 10px;
         opacity: 0;
-        transition: all 0.8s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        font-family: 'Nunito', sans-serif;
         &:hover{
             background-color: #0092bb;
         }
@@ -39,17 +42,18 @@
     h1{
         color: #fff;
         text-align: center;
+        font-family: 'Nunito', sans-serif;
     }
     transform: scale(0.9);
-    transition: all 0.8s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 .Card:hover{
     opacity: 1;
     transform: scale(1);
-    transition: all 0.8s ease-in-out;
+    transition: all 0.4s ease-in-out;
     button{
         opacity: 1;
-        transition: all 0.8s ease-in-out;
+        transition: all 0.4s ease-in-out;
     }
     p{
         text-overflow:clip;

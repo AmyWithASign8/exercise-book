@@ -6,6 +6,7 @@ function Home() {
     <div>
         <Card namingCard="Счетчик" cardRoute='counter' descriptionCard="Обычный счетчик на ReactJS, самое простое упражнение."/>
         <Card namingCard="Модальное окно" cardRoute='modal' descriptionCard="Обычное модальное окно двумя способами ( без использования библиотеки ). Первый способ не анимированное модальное окно, а второй анимированное."/>
+        <Card namingCard="Опрос" cardRoute='interview' descriptionCard="Опрос с шагом и подсчетом правильных ответов."/>
     </div>
   )
 }

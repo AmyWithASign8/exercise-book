@@ -1,16 +1,16 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-html{
+html {
   height: 100%;
 }
-body{
+body {
   width: 100%;
   height: 100%;
   background-color: #333;
 }
-.Cards{
+.Cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

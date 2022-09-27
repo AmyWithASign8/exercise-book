@@ -1,0 +1,24 @@
+.Home {
+  input {
+    padding: 10px;
+    background-color: #b3b3b3;
+    border: 0;
+    width: 300px;
+    font-size: 12pt;
+    font-family: "Nunito", sans-serif;
+    color: #000000;
+    margin-left: 42%;
+  }
+  .Cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  h1 {
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
